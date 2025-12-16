@@ -1,0 +1,126 @@
+/* Page Background */
+.docs-page {
+    background-image: url("docs.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 90px;
+}
+
+/* Logo */
+.logo img {
+    width: 105px;
+    height: 100px;
+}
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    width: 320px;
+    margin: 20px ;
+    background: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.search-box button {
+    background: #baff00;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Main Layout */
+.docs-container {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Sidebar */
+.docs-sidebar {
+    width: 25%;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.docs-sidebar h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.docs-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.docs-sidebar ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #00eaff;
+    border-radius: 6px;
+}
+
+/* Active tech */
+.tech.active-tech {
+    background: rgba(54, 224, 239, 0.25);
+}
+
+/* Content */
+.docs-content {
+    width: 75%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Content switching */
+.content-box {
+    display: none;
+}
+
+.content-box.active {
+    display: block;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
